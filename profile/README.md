@@ -16,7 +16,7 @@
 
 Aomi turns natural language into on-chain actions. Ask for a price, a swap, a transfer, or a full portfolio strategy — the agent plans the call, prepares the transaction, and hands it back to **your** wallet to sign. No custody, no API-key juggling, no copy-pasting calldata.
 
-Under the hood, Aomi is a plugin-based runtime: each protocol (CoW Swap, Polymarket, Kalshi, prediction markets, social, and more) is a small app that the agent can reach for when it's the right tool for the job.
+Under the hood, Aomi is a plugin-based runtime: each integration (Polymarket, Kalshi, DeFi, prediction markets, social, and more) is a small app that the agent can reach for when it's the right tool for the job.
 
 ---
 
@@ -31,9 +31,9 @@ An embeddable React widget that ships a ready-to-use conversational assistant wi
 - Full TypeScript types
 
 ### 🛠️ [`aomi-sdk`](https://github.com/aomi-labs/aomi-sdk) — Plugin SDK for on-chain apps
-The public Rust SDK for building dynamic plugins that run inside the Aomi agent runtime. Each plugin is a small, sandboxed app that exposes tools (HTTP models + typed tool implementations) the agent can call.
+The public Rust SDK for building dynamic plugins that run inside the Aomi agent runtime. Each plugin is a small app that exposes tools (HTTP client + models + typed tool implementations) the agent can call.
 
-- 12+ reference apps: CoW Swap, Polymarket, Kalshi, Khalani, Para, Pelagos, Molinar, Delta, DeFi, Social, X, Prediction
+- 12 reference apps: DeFi, Delta, Kalshi, Khalani, Molinar, Para, Para-Consumer, Pelagos, Polymarket, Prediction, Social, X
 - `xtask` build toolchain: `cargo run -p xtask -- build-aomi`
 - Documented host interop contracts
 - Clear split between public SDK and private runtime
