@@ -51,32 +51,22 @@ A momentum-following portfolio bot built with `@aomi-labs/client`. Shows how to 
 
 ## How It Works
 
-```
-   ┌──────────────┐      natural language       ┌──────────────┐
-   │  Your app /  │ ─────────────────────────▶  │  Aomi Agent  │
-   │  chat / bot  │ ◀── tx payload to sign ──── │  + plugins   │
-   └──────────────┘                             └──────┬───────┘
-          │                                            │
-          │ signs with your wallet (viem / Para)       │ calls protocol apps
-          ▼                                            ▼
-   ┌──────────────┐                             ┌──────────────┐
-   │  EVM chains  │ ◀────  broadcast tx ───────│ CoW · Polymkt│
-   │              │                            │ Kalshi · ... │
-   └──────────────┘                             └──────────────┘
-```
+Your app sends a natural-language intent to the Aomi agent. The agent routes it through the right protocol plugin, prepares the transaction (or EIP-712 payload), and hands it back to your wallet to sign locally. Aomi plans; you sign.
 
-**Your keys stay with you.** Aomi plans and prepares — you sign and send.
+See the end-to-end architecture and sequence diagrams in [`aomi-client-example`](https://github.com/aomi-labs/aomi-client-example#architecture) for a worked example of the bot → backend → chain flow.
 
 ---
 
 ## Get Started
 
 ```bash
-# Install the client
+# Use the client from Node/TS
 npm i -g @aomi-labs/client
 
-# Or embed the widget
-npm i @aomi-labs/aomi
+# Or embed the React widget
+pnpm install @aomi-labs/react @aomi-labs/widget-lib
+# ...or via the shadcn registry:
+npx shadcn add https://aomi.dev/r/aomi-frame.json
 ```
 
 - 📚 Docs & demos: **[aomi.dev](https://aomi.dev)**
