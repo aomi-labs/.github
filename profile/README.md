@@ -1,7 +1,7 @@
 <h1 align="center">Aomi Labs</h1>
 
 <p align="center">
-  <strong>AI infrastructure that executes onchain transactions. One-line install.</strong>
+  <strong>Open-source AI blockchain infrastructure that executes onchain transactions. One-line install.</strong>
 </p>
 
 <p align="center">
