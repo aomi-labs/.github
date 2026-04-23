@@ -1,8 +1,7 @@
 <h1 align="center">Aomi Labs</h1>
 
 <p align="center">
-  <strong>The on-chain AI transaction builder.</strong><br/>
-  Chat your way through DeFi — swaps, transfers, prices, and strategies, signed from your own wallet.
+  <strong>AI infrastructure that executes onchain transactions. One-line install.</strong>
 </p>
 
 <p align="center">
