@@ -1,7 +1,7 @@
 <h1 align="center">Aomi Labs</h1>
 
 <p align="center">
-  <strong>Open-source AI blockchain infrastructure that executes onchain transactions. One-line install.</strong>
+  <strong>Open-source AI infrastructure for automating crypto — agentic runtime, embeddable widgets, and on-chain execution.</strong>
 </p>
 
 <p align="center">
@@ -14,9 +14,9 @@
 
 ## What is Aomi?
 
-Aomi turns natural language into on-chain actions. Ask for a price, a swap, a transfer, or a full portfolio strategy — the agent plans the call, prepares the transaction, and hands it back to **your** wallet to sign. No custody, no API-key juggling, no copy-pasting calldata.
+Aomi is open-source AI infrastructure for automating crypto. Teams get three things: a serverless runtime that hosts agentic loops at native speed, embeddable React widgets for conversational UX, and an on-chain execution layer that routes natural-language intents to your wallet for signing.
 
-Under the hood, Aomi is a plugin-based runtime: each integration (Polymarket, Kalshi, DeFi, prediction markets, social, and more) is a small app that the agent can reach for when it's the right tool for the job.
+Under the hood, Aomi is plugin-based. Each integration (DeFi, Polymarket, Kalshi, prediction markets, social, and more) is a small app that the agent can reach for when it's the right tool for the job. No custody, no API-key juggling, no copy-pasting calldata — you ask in natural language, the agent plans the call, and you sign locally.
 
 ---
 
