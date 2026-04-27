@@ -1,7 +1,7 @@
 <h1 align="center">Aomi Labs</h1>
 
 <p align="center">
-  <strong>Open-source AI infrastructure for automating crypto — agentic runtime, embeddable widgets, and on-chain execution.</strong>
+  <strong>The best blockchain harness for agentic AI - on-chain execution with runtime, skills, and component library.</strong>
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@
 
 ## What is Aomi?
 
-Aomi is open-source AI infrastructure for automating crypto. Teams get three things: a serverless runtime that hosts agentic loops at native speed, embeddable React widgets for conversational UX, and an on-chain execution layer that routes natural-language intents to your wallet for signing.
+Aomi is the best blockchain harness for agentic AI. Teams ship on-chain execution with three drop-in surfaces: a serverless runtime that hosts agentic loops at native speed, agent skills for Claude Code, Cursor, and other AI coding tools, and a React component library that embeds conversational UX directly into apps.
 
 Under the hood, Aomi is plugin-based. Each integration (DeFi, Polymarket, Kalshi, prediction markets, social, and more) is a small app that the agent can reach for when it's the right tool for the job. No custody, no API-key juggling, no copy-pasting calldata — you ask in natural language, the agent plans the call, and you sign locally.
 
